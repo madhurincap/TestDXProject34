@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <AssemblyName>DXProject20</AssemblyName>
+    <RootNamespace>DXProject20</RootNamespace>
+    <ProjectPackageVersion>1.20.7.4</ProjectPackageVersion>
+    <ProjectGuid>{3b584cfc-46ef-4146-a438-08f5a8fbf74d}</ProjectGuid>
+    <Name>DXProject20</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+</Project>
